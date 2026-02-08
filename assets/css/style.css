@@ -1,0 +1,81 @@
+/* Estilos generales */
+
+/* Corrección para evitar el "juego" horizontal en móviles */
+html, body {
+    overflow-x: hidden; /* Corta cualquier cosa que se salga del ancho de la pantalla */
+    width: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Fondo gris muy claro */
+    transition: background-color 0.5s, color 0.5s; /* Transición suave para modo oscuro */
+}
+
+/* Color personalizado para Sheldon */
+.bg-sheldon {
+    background-color: #278e52; /* Un verde esmeralda vibrante */
+}
+
+.bg-sheldon-dark {
+    background-color: #19703d; 
+}
+
+/* Color para igualar botones */
+.btn-success {
+    background-color: #278e52; 
+    border-color: #278e52;
+}
+
+/* Efecto hover para los botones */
+.btn-success:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+
+/* darle forma a la foto */
+.profile-pic {
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Activa Modo oscuro */
+.materia-oscura {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.materia-oscura .bg-light {
+    background-color: #2c2c2c !important;  /* Forzar todo a modo oscuro :( */
+    color: #fff;
+}
+
+.materia-oscura .list-group-item {
+    background-color: #333;
+    color: #fff;
+    border-color: #444;
+}
+
+/* Estilo para el contenedor de "Mi sitio"  */
+.spot-container {
+    background-color: #e9ecef;
+}
+.materia-oscura .spot-container {
+    background-color: #2c2c2c;  
+} 
+
+/* --- EFECTO FADE IN AL SCROLL --- */
+
+.oculto {
+    opacity: 0;
+    transform: translateY(50px); /* empuja 50px hacia abajo */
+    transition: all 1.0s ease-out; /* se toma 1 segundo en aparecer suavemente */
+}
+
+/* Estado final: Visible y en su posición original */
+.mostrar {
+    opacity: 1;
+    transform: translateY(0); /* vuelve a su posición original */
+}

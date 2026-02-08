@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Dr. Sheldon Cooper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR  -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-sheldon fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dr. Cooper</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#educacion">Educación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido / Sección Principal -->
+
+    <header class="container mt-5 pt-5 text-center">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="./assets/img/foto_cv.webp" alt="Foto Dr. Sheldon Cooper" class="img-fluid rounded-circle border border-5 border-success profile-pic">
+            </div>
+            <div class="col-md-8 text-center text-start">
+                <h1 class="display-4 fw-bold">Dr. Sheldon Cooper, B.S., M.S., M.A., Ph.D., Sc.D.</h1>
+                <p class="lead text-success">Físico Teórico | Ganador del Premio Nobel | Entusiasta de los Trenes</p>
+                    <button id="btn-bazinga" class="btn btn-danger btn-lg rounded-pill shadow border border-warning border-3 text-warning fw-bold">
+                    ⚡ Presiona aquí si te atreves
+                    </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECCIÓN SOBRE MI -->
+    <hr class="my-5">
+    <section id="sobre-mi" class="container mb-5">
+        <h2 class="text-success">Sobre mi Intelecto Superior</h2>
+        <p>Soy un Físico Teórico senior en Caltech. Tengo un coeficiente intelectual de 187 y memoria fotográfica. 
+            No estoy loco, mi madre me hizo pruebas. Disfruto de los cómics, los videojuegos, "Diversión con Banderas" y mantener el orden en el universo.</p>
+        <button id="btn-tema" class="btn btn-success mt-3">Activar Modo "Materia Oscura"</button>
+    </section>
+
+    <!-- FORMACIÓN ACADÉMICA   -->
+
+    <section id="educacion" class="container mb-5 bg-light p-4 rounded oculto">
+        <h2 class="text-success mb-4">Formación Académica (Cronología de un Prodigio)</h2>
+        <div class="row g-4">
+            
+            <div class="col-md-6">
+                <div class="card border-success h-100">
+                    <div class="card-header bg-sheldon text-white fw-bold">
+                        Doctorado (Ph.D.) & Sc.D.
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">California Institute of Technology (Caltech)</h5>
+                        <p class="card-text">Obtenido a los 16 años. Tesis sobre la Teoría de Cuerdas y la gravedad cuántica de bucles (la cual desprecio, pero estudié).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card border-success h-100">
+                    <div class="card-header bg-sheldon text-white">
+                        Licenciatura en Ciencias (B.S.)
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">East Texas Tech</h5>
+                        <p class="card-text">Graduado Summa Cum Laude a los 14 años. (Referencia: Young Sheldon).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card border-success h-100">
+                    <div class="card-header bg-sheldon text-white">
+                        Investigador Visitante
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Heidelberg Institute (Alemania)</h5>
+                        <p class="card-text">Estancia de verano. Intenté enseñar física a los alemanes. No apreciaron mi genio.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card border-success h-100">
+                    <div class="card-header bg-sheldon text-white">
+                        Secundaria (High School)
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Medford High School</h5>
+                        <p class="card-text">Graduado como Valedictorian a los 11 años. Di el discurso de despedida (fue excelente).</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA/TRAYECTORIA - ACADÉMICA Y LABORAL  -->
+
+    <section id="experiencia" class="container mb-5 bg-light p-4 rounded oculto">
+        <h2 class="text-success">Trayectoria Académica y Laboral</h2>
+        <div class="row g-4">
+            
+        <div class="col-md-6">
+                <div class="card border-success h-100">
+                    <div class="card-header bg-sheldon text-white">
+                        California Institute of Technology (Caltech)
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted">Físico Teórico Senior | 2007 - Presente</p>    
+                        <p class="card-text">Investigación sobre Teoría de Cuerdas y Materia Oscura. Resolución de conflictos con el departamento de Recursos Humanos.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6"> 
+                <div class="card border-success h-100">
+                    <div class="card-header bg-sheldon text-white">
+                        Diversión con Banderas
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted">Presentador y Creador | 2011 - Presente</p>
+                        <p class="card-text">Programa web educativo sobre Vexilología. (Y a veces Amy Farrah Fowler interrumpe).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- HABILIDADES  -->
+
+    <section id="habilidades" class="container mb-5 oculto">
+        <h2 class="text-success">Habilidades Superiores</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Física Teórica & Matemáticas Avanzadas</li>
+            <li class="list-group-item">Vexilología (Estudio de las banderas)</li>
+            <li class="list-group-item">Hablar Klingon fluido</li>
+            <li class="list-group-item">Redacción de Acuerdos de Compañeros de Departamento</li>
+        </ul>
+        <div class="mt-3 p-3 border rounded text-center spot-container oculto">
+            <p><strong>Nota importante:</strong> No te sientes en mi puesto.</p>
+            <button id="btn-sitio" class="btn btn-danger">Intenta sentarte aquí 🧐 </button>
+            <p id="mensaje-sitio" class="mt-2 fw-bold text-warning" style="display:none;">ESE ES MI PUESTO!!! 0_0 </p>
+        </div>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO  -->
+
+<section id="contacto" class="container mb-5 pb-5 oculto">
+        <h2 class="text-success text-center mb-4">Protocolos de Comunicación</h2>
+        
+        <div class="row g-4">
+            
+            <div class="col-md-5">
+                <div class="card border-success h-100">
+                    <div class="card-header bg-sheldon text-white fw-bold">
+                        Datos de Localización
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Si no es una emergencia, prefiero no ser contactado. Si insistes, usa estos canales:</p>
+                        
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <strong>📧 Correo Electrónico:</strong><br>
+                                <a href="mailto:dr.cooper@caltech.edu" class="text-decoration-none text-success">dr.cooper@caltech.edu</a>
+                            </li>
+                            <li class="mb-3">
+                                <strong>📞 Teléfono (Solo texto):</strong><br>
+                                <span class="text-muted">+1 (314) 159-2653</span>
+                            </li>
+                            <li class="mb-3">
+                                <strong>🏢 Oficina:</strong><br>
+                                Caltech, Departamento de Física, Oficina α, Sector Pi.
+                            </li>
+                            <li>
+                                <strong>📱 Redes Sociales:</strong><br>
+                                <a href="https://www.instagram.com/dsheldoncooper?igsh=MWUzd3h6dGtnbTc1Mg==" target="_blank" class="btn btn-outline-danger btn-sm mt-1">
+                                    📷 Seguir en Instagram
+                                </a>
+                                <a href="#" class="btn btn-outline-primary btn-sm mt-1 disabled">
+                                    👔 LinkedIn (No uso eso)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="p-4 border rounded bg-white shadow-sm h-100">
+                    <h4 class="mb-3 text-success">Formulario de Solicitud de Audiencia</h4>
+                    <form id="formulario-contacto">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Tu Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="penny@cheesecakefactory.com">
+                            <div id="error-email" class="form-text text-danger" style="display:none;">¡Debes ingresar un correo o no podré ignorarte formalmente!</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Sé breve. Mi tiempo es valioso."></textarea>
+                            <div id="error-mensaje" class="form-text text-danger" style="display:none;">¡El mensaje no puede estar vacío! Eso es ilógico.</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-success w-100">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MODAL BAZINGA BOOTSTRAP 5 -->
+
+    <div class="modal fade" id="modalBazinga" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-3 border-danger">
+            <div class="modal-header bg-danger text-white justify-content-center">
+                <h2 class="modal-title fw-bold">⚡ ¡BAZINGA! ⚡</h2>
+            </div>
+            <div class="modal-body text-center fs-5">
+                <p>Caíste en una de mis bromas clásicas basadas en el engaño.</p>
+                <p class="text-muted small">(Mi intelecto es superior, no intentes competir).</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-warning fw-bold" data-bs-dismiss="modal">Entendido, Dr. Cooper</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MODAL CONTACTO BOOTSTRAP -->
+    <div class="modal fade" id="modalContacto" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-3 border-success">
+                <div class="modal-header bg-success text-white justify-content-center">
+                    <h5 class="modal-title fw-bold">📨 ¡Solicitud Recibida!</h5>
+                </div>
+                <div class="modal-body text-center fs-5">
+                    <p>Tu mensaje ha sido ingresado en mi base de datos.</p>
+                    <p class="text-muted small">Tiempo estimado de respuesta: 3 a 5 días hábiles (o inmediatamente si mencionaste trenes).</p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Cerrar Protocolo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER  -->
+
+    <footer class="bg-sheldon-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-1">© 2026 Dr. Sheldon Cooper. Todos los derechos reservados bajo el Acuerdo de Compañeros de Habitación.</p>            
+            <p class="small text-white-50 fst-italic mb-0">
+                Este sitio es un proyecto académico con fines educativos. 
+                El personaje de Sheldon Cooper y las referencias a "The Big Bang Theory" y "Young Sheldon" 
+                son propiedad intelectual de <strong>Chuck Lorre Productions</strong> y <strong>Warner Bros. Television</strong>.
+                No se pretende infringir derechos de autor (Fair Use).
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- SCRIPTS  -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+
+</body>
+</html>
